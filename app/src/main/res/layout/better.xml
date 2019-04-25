@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_omelet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Omelet" />
+
+    <ScrollView
+        android:id="@+id/omelet_recept"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit laoreet ante at fermentum. Nullam vel metus ullamcorper tortor suscipit commodo nec ac libero. Fusce vel lobortis ipsum. Vivamus lobortis mattis condimentum. Nunc varius quis mauris a maximus. Morbi malesuada dui venenatis, malesuada enim ac, sagittis dolor. Vestibulum non nibh in massa efficitur auctor at sit amet purus. Sed scelerisque nec massa vel ornare. Vestibulum in est vehicula, aliquet velit id, imperdiet arcu. Aenean nibh mi, mattis in maximus vitae, convallis et libero. Sed mollis elementum dignissim. Maecenas rhoncus tellus venenatis semper tempus. Sed eget erat sit amet est tincidunt scelerisque. Suspendisse ornare neque turpis, id tristique nunc iaculis vitae. Donec sollicitudin aliquam est. Vestibulum nec felis nulla." />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
