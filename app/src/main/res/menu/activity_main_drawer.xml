@@ -3,7 +3,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_lib"
             android:icon="@drawable/ic_menu_camera"
             android:title="Библиотека Рецептов" />
         <item
@@ -11,7 +11,7 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Избранное" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_better"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Лучшее" />
     </group>
